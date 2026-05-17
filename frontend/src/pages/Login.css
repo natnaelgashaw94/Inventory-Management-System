@@ -1,0 +1,24 @@
+.login-container {
+    height: 100vh;
+    background: linear-gradient(135deg, #f4f6f9 0%, #e0e5ec 100%);
+}
+
+.login-card {
+    width: 100%;
+    max-width: 450px;
+    border-radius: 20px;
+    background: white;
+}
+
+.login-card input:focus,
+.login-card select:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+.form-label {
+    max-width: 100%;
+    box-sizing: border-box;
+    position: relative;
+
+}
